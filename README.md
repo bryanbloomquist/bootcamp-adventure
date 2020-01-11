@@ -1,12 +1,12 @@
 # Boot Camp Adventure
 
-A continuation of group project #2 from my full stack web development boot camp, a choose your own adventure game I really enjoy and wanted to continue working on it on my own.
+A continuation of group project #2 from my full stack web development boot camp [(original repo)](https://github.com/bryanbloomquist/group-project-2), a choose your own adventure game I really enjoy and wanted to continue working on it on my own.
 
 
 # Choose Your Own Adventure
 
 
-Deployed App: [cyoa-bc.herokuapp.com](https://cyoa-bc.herokuapp.com) (this is going to change once I set up heroku).
+Deployed App: [bootcamp-adventure.herokuapp.com](https://bootcamp-adventure.herokuapp.com)
 
 
 ## Project Description

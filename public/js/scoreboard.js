@@ -23,6 +23,7 @@ $(document).ready(function () {
       const stress = result.currentStress;
       const highestScore = result.highScore;
       const highestStress = result.highStress;
+      $('#your-score').html(`Your Score: ${score}`)
       //change modal text/image based on if the user passed, failed, or stressed out
       if (score <= 0 && score !== -1) {
         $('#questionModal').modal('show');
@@ -92,9 +93,9 @@ $(document).ready(function () {
       result.forEach(function (user) {
         ++rank;
 
-        let rankEl = $("<p class='h3 my-4'>" + rank + "</p>");
-        let nameEl = $("<p class='h3 my-4'>" + (user.username.charAt(0).toUpperCase() + user.username.slice(1)) + "</p>");
-        let scoreEl = $("<p class='h3 my-4'>" + user.highScore + "</p>");
+        let rankEl = $("<p class='h4 my-2'>" + rank + "</p>");
+        let nameEl = $("<p class='h4 my-2'>" + (user.username.charAt(0).toUpperCase() + user.username.slice(1)) + "</p>");
+        let scoreEl = $("<p class='h4 my-2'>" + user.highScore + "</p>");
 
         if (rank === 1) {
           rankEl.addClass("gold");
